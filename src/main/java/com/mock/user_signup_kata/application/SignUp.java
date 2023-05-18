@@ -1,8 +1,8 @@
-package com.muving.muving_backend_hexagonal.application;
+package com.mock.user_signup_kata.application;
 
-import com.muving.muving_backend_hexagonal.domain.User;
-import com.muving.muving_backend_hexagonal.infrastructure.EmailService;
-import com.muving.muving_backend_hexagonal.infrastructure.UserRepository;
+import com.mock.user_signup_kata.domain.User;
+import com.mock.user_signup_kata.infrastructure.EmailService;
+import com.mock.user_signup_kata.infrastructure.UserRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +24,8 @@ public class SignUp {
         if(users.isEmpty()){
             userRepository.saverUser(user);
             emailService.sendEmail(user);
+        }else{
+            throw new IllegalArgumentException("That user is already registered");
         }
 
     }

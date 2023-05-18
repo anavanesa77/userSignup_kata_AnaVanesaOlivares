@@ -1,10 +1,7 @@
-package com.muving.muving_backend_hexagonal.application;
+package com.mock.user_signup_kata.application;
 
-import com.muving.muving_backend_hexagonal.domain.User;
-
+import com.mock.user_signup_kata.domain.User;
 import static org.assertj.core.api.Assertions.*;
-
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /*

@@ -66,7 +66,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.muving.muving_backend_hexagonal/com.muving.muving_backend_hexagonal.MuvingApplication
+                                com.muving.muving_backend_hexagonal/com.mock.user_signup_kata.MuvingApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

@@ -1,7 +1,7 @@
-package com.muving.muving_backend_hexagonal.application;
+package com.mock.user_signup_kata.application;
 
-import com.muving.muving_backend_hexagonal.domain.User;
-import com.muving.muving_backend_hexagonal.infrastructure.EmailService;
+import com.mock.user_signup_kata.domain.User;
+import com.mock.user_signup_kata.infrastructure.EmailService;
 
 public class MockEmailService implements EmailService {
 
